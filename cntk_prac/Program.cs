@@ -10,6 +10,7 @@ namespace cntk_prac
     {
         static void Main(string[] args)
         {
+            LogisticRegression.TrainAndEvaluate(CNTK.DeviceDescriptor.CPUDevice);
         }
     }
 }
